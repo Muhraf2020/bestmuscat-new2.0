@@ -31,16 +31,29 @@
         "additionalProperties": false
       },
       "hours": {
-        "type": ["array", "null"],
-        "items": {
-          "type": "object",
-          "required": ["days", "open", "close"],
-          "properties": {
-            "days": { "type": "string" },
-            "open": { "type": "string" },
-            "close": { "type": "string" }
-          }
-        }
+        "oneOf": [
+          {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["days", "open", "close"],
+              "properties": {
+                "days": { "type": "string" },
+                "open": { "type": "string" },
+                "close": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          { "type": "null" }
+        ]
       },
       "url": { "type": "string" }
     },
