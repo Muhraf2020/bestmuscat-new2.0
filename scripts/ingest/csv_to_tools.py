@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 CSV -> data/tools.json (+ logo download & optimize to assets/images/)
-- Validates against data/schema/tools.schema.json (your widened hours schema)
+- Validates against data/schema/tools.schema.json (widened hours schema)
 - Merges by slug (updates only the fields this pipeline owns)
 """
 
@@ -127,15 +127,28 @@ def parse_hours(hours_raw: str):
 
 # --- Main ----------------------------------------------------------
 def main():
-    # 1) Load categories (canonical + optional synonyms)
-    categories = load_json(CATEGORIES_JSON, [])
-    canonical = {c["name"]: c["name"] for c in categories if isinstance(c, dict) and "name" in c}
-    # If you store synonyms in categories.json like [{"name":"Hotels","synonyms":["Hotel","Resort"]}, ...]
-    for c in categories:
-        if isinstance(c, dict):
-            name = c.get("name")
-            for syn in c.get("synonyms", []) or []:
-                canonical[str(syn)] = name
+    # 1) Load categories (supports both flat array and {"categories":[...]})
+    cat_data = load_json(CATEGORIES_JSON, [])
+    if isinstance(cat_data, dict) and "categories" in cat_data:
+        cat_list = cat_data.get("categories", [])
+    else:
+        cat_list = cat_data  # already a list
+
+    # Build canonical map (lowercase keys) and a set of valid canonical names
+    canonical = {}
+    canonical_names = set()
+    for c in cat_list or []:
+        if not isinstance(c, dict):
+            continue
+        name = (c.get("name") or "").strip()
+        if not name:
+            continue
+        canonical[name.lower()] = name
+        canonical_names.add(name.lower())
+        for syn in (c.get("synonyms") or []):
+            syn_s = (str(syn) or "").strip()
+            if syn_s:
+                canonical[syn_s.lower()] = name
 
     # 2) Read existing tools.json (if any)
     tools = load_json(TOOLS_JSON, [])
@@ -158,11 +171,18 @@ def main():
                 continue
 
             slug = (row.get("slug") or "").strip() or slugify(name)
+
+            # category (case-insensitive; validates only if categories.json provided)
             cat_in = (row.get("category") or "").strip()
-            cat = canonical.get(cat_in, cat_in)
-            if not cat or cat not in canonical.values():
-                raise ValueError(f"Unknown category '{cat_in}' for '{name}' at CSV line {i}. "
-                                 f"Add/match it in data/categories.json.")
+            cat = canonical.get(cat_in.lower())
+            if not cat:
+                if canonical_names:
+                    raise ValueError(
+                        f"Unknown category '{cat_in}' for '{name}' at CSV line {i}. "
+                        f"Add/match it in data/categories.json."
+                    )
+                else:
+                    cat = cat_in  # no configured list to validate against
 
             # tags
             tags = split_tags(row.get("tags") or "")
@@ -209,7 +229,7 @@ def main():
                 "logo": logo_repo_path,
                 "location": location,
                 "hours": hours,
-                "url": (row.get("url") or "").strip(),
+                "url": (row.get("url") or "").strip(),  # optional
             }
 
             if slug in by_slug and by_slug[slug] is not None:
