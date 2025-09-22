@@ -167,7 +167,7 @@
       "Hotels"
     ],
     "tags": [
-      "⭐️5",
+      "5-Star",
       "Luxury",
       "Beachfront"
     ],
@@ -243,43 +243,20 @@
       "amenities": [],
       "seating": []
     },
-    "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
-    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
     "location": {
-      "neighborhood": "Qasr Al Alam",
-      "address": "Al Bustan St",
+      "neighborhood": "Ghala",
+      "address": "Way 3935",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.586,
-      "lng": 58.64
+      "lat": 23.633817,
+      "lng": 58.438365
     },
     "faqs": []
   },
@@ -298,14 +275,20 @@
     ],
     "logo": "assets/images/default.webp",
     "location": {
-      "neighborhood": "Al Mouj",
-      "address": "Street 1, Al Mouj",
+      "neighborhood": "Bausher",
+      "address": "Way 2620",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.613,
-      "lng": 58.284
+      "lat": 23.649744,
+      "lng": 58.637275
     },
-    "hours": null,
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
     "url": "https://www.almouj.com/en/marina"
   },
   {
@@ -878,18 +861,18 @@
     ],
     "logo": "assets/images/default.webp",
     "location": {
-      "neighborhood": "Old Muscat",
-      "address": "Al Saidiya St",
+      "neighborhood": "Al Hail",
+      "address": "Al Maha St",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.616,
-      "lng": 58.594
+      "lat": 23.632162,
+      "lng": 58.531593
     },
     "hours": [
       {
-        "days": "Sat-Thu",
-        "open": "09:30",
-        "close": "18:00"
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
       }
     ],
     "url": "https://www.baitalzubair.com/"
@@ -1954,6 +1937,171 @@
     "url": "https://example.com/city-walk-mall"
   },
   {
+    "id": "city-walk-mall-1",
+    "slug": "city-walk-mall-1",
+    "name": "City Walk Mall 1",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Indoor mall with cinema and dining options.",
+    "tags": [
+      "Cinema",
+      "Dining",
+      "Retail"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Qaboos",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.618982,
+      "lng": 58.625186
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "city-walk-mall-2",
+    "slug": "city-walk-mall-2",
+    "name": "City Walk Mall 2",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Indoor mall with cinema and dining options.",
+    "tags": [
+      "Cinema",
+      "Dining",
+      "Retail"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Mutrah",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.632731,
+      "lng": 58.668952
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "city-walk-mall-3",
+    "slug": "city-walk-mall-3",
+    "name": "City Walk Mall 3",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Indoor mall with cinema and dining options.",
+    "tags": [
+      "Cinema",
+      "Dining",
+      "Retail"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Hail",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.59098,
+      "lng": 58.593928
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "city-walk-mall-4",
+    "slug": "city-walk-mall-4",
+    "name": "City Walk Mall 4",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Indoor mall with cinema and dining options.",
+    "tags": [
+      "Cinema",
+      "Dining",
+      "Retail"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "North Ghubrah",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.56905,
+      "lng": 58.504257
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "city-walk-mall-5",
+    "slug": "city-walk-mall-5",
+    "name": "City Walk Mall 5",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Indoor mall with cinema and dining options.",
+    "tags": [
+      "Cinema",
+      "Dining",
+      "Retail"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "Qurum Park Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.534018,
+      "lng": 58.632305
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
     "id": "city-center-inn",
     "slug": "city-center-inn",
     "name": "City Center Inn",
@@ -2113,6 +2261,166 @@
       }
     ],
     "url": "https://example.com/coffee-lab"
+  },
+  {
+    "id": "date-cardamom-1",
+    "slug": "date-cardamom-1",
+    "name": "Date & Cardamom 1",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wadi Kabir",
+      "address": "Sultan Qaboos St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.540534,
+      "lng": 58.642594
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "date-cardamom-2",
+    "slug": "date-cardamom-2",
+    "name": "Date & Cardamom 2",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wadi Kabir",
+      "address": "18th November St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.611551,
+      "lng": 58.40739
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "date-cardamom-3",
+    "slug": "date-cardamom-3",
+    "name": "Date & Cardamom 3",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Mouj",
+      "address": "Way 2620",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.655857,
+      "lng": 58.614759
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "date-cardamom-4",
+    "slug": "date-cardamom-4",
+    "name": "Date & Cardamom 4",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Mouj",
+      "address": "Service Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.625489,
+      "lng": 58.573419
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "date-cardamom-5",
+    "slug": "date-cardamom-5",
+    "name": "Date & Cardamom 5",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wadi Kabir",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.659607,
+      "lng": 58.435756
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
   },
   {
     "id": "desert-oasis-resort",
@@ -3280,6 +3588,161 @@
     "faqs": []
   },
   {
+    "id": "gulf-maritime-museum-1",
+    "slug": "gulf-maritime-museum-1",
+    "name": "Gulf Maritime Museum 1",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Curated exhibits highlighting regional history.",
+    "tags": [
+      "Exhibits",
+      "Gallery",
+      "Education"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Shatti Al Qurum",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.646888,
+      "lng": 58.510498
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "gulf-maritime-museum-2",
+    "slug": "gulf-maritime-museum-2",
+    "name": "Gulf Maritime Museum 2",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Curated exhibits highlighting regional history.",
+    "tags": [
+      "Exhibits",
+      "Gallery",
+      "Education"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wadi Kabir",
+      "address": "18th November St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.561391,
+      "lng": 58.381958
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "gulf-maritime-museum-3",
+    "slug": "gulf-maritime-museum-3",
+    "name": "Gulf Maritime Museum 3",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Curated exhibits highlighting regional history.",
+    "tags": [
+      "Exhibits",
+      "Gallery",
+      "Education"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Mouj",
+      "address": "Sultan Qaboos St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.55791,
+      "lng": 58.366522
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "gulf-maritime-museum-4",
+    "slug": "gulf-maritime-museum-4",
+    "name": "Gulf Maritime Museum 4",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Curated exhibits highlighting regional history.",
+    "tags": [
+      "Exhibits",
+      "Gallery",
+      "Education"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Bausher",
+      "address": "Street 1",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.623724,
+      "lng": 58.54047
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "gulf-maritime-museum-5",
+    "slug": "gulf-maritime-museum-5",
+    "name": "Gulf Maritime Museum 5",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Curated exhibits highlighting regional history.",
+    "tags": [
+      "Exhibits",
+      "Gallery",
+      "Education"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.55349,
+      "lng": 58.554319
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
     "id": "happy-kids-nursery",
     "slug": "happy-kids-nursery",
     "name": "Happy Kids Nursery",
@@ -3530,6 +3993,228 @@
     "faqs": []
   },
   {
+    "id": "heritage-fort-1",
+    "slug": "heritage-fort-1",
+    "name": "Heritage Fort 1",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Historic site with guided tours available.",
+    "tags": [
+      "Landmark",
+      "Guided Tours",
+      "Photography"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Hail",
+      "address": "Al Araimi Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.630766,
+      "lng": 58.456103
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "heritage-fort-2",
+    "slug": "heritage-fort-2",
+    "name": "Heritage Fort 2",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Historic site with guided tours available.",
+    "tags": [
+      "Landmark",
+      "Guided Tours",
+      "Photography"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Azaiba",
+      "address": "Al Araimi Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.627609,
+      "lng": 58.537412
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "heritage-fort-3",
+    "slug": "heritage-fort-3",
+    "name": "Heritage Fort 3",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Historic site with guided tours available.",
+    "tags": [
+      "Landmark",
+      "Guided Tours",
+      "Photography"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Azaiba",
+      "address": "Qurum Park Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.616172,
+      "lng": 58.456304
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "heritage-fort-4",
+    "slug": "heritage-fort-4",
+    "name": "Heritage Fort 4",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Historic site with guided tours available.",
+    "tags": [
+      "Landmark",
+      "Guided Tours",
+      "Photography"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Qurum",
+      "address": "Way 2620",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.559426,
+      "lng": 58.611443
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "heritage-fort-5",
+    "slug": "heritage-fort-5",
+    "name": "Heritage Fort 5",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Historic site with guided tours available.",
+    "tags": [
+      "Landmark",
+      "Guided Tours",
+      "Photography"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ghala",
+      "address": "Al Araimi Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.59185,
+      "lng": 58.576201
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "heritage-fort-6",
+    "slug": "heritage-fort-6",
+    "name": "Heritage Fort 6",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Historic site with guided tours available.",
+    "tags": [
+      "Landmark",
+      "Guided Tours",
+      "Photography"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Hamriya",
+      "address": "Al Bahri Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.56973,
+      "lng": 58.572433
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "heritage-fort-7",
+    "slug": "heritage-fort-7",
+    "name": "Heritage Fort 7",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Historic site with guided tours available.",
+    "tags": [
+      "Landmark",
+      "Guided Tours",
+      "Photography"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "North Ghubrah",
+      "address": "Al Kharjiyah St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.624191,
+      "lng": 58.431885
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
     "id": "indian-school-al-ghubrah",
     "slug": "indian-school-al-ghubrah",
     "name": "Indian School Al Ghubrah",
@@ -3600,26 +4285,626 @@
     ],
     "logo": "assets/images/default.webp",
     "location": {
-      "neighborhood": "Madinat Al Sultan Qaboos",
-      "address": "18th November St, Way 3935",
+      "neighborhood": "Qantab",
+      "address": "Sultan Qaboos St",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.595,
-      "lng": 58.429
+      "lat": 23.630243,
+      "lng": 58.584424
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": "https://kargeencaffe.com/"
+  },
+  {
+    "id": "khareef-coffee-1",
+    "slug": "khareef-coffee-1",
+    "name": "Khareef Coffee 1",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wadi Kabir",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.556586,
+      "lng": 58.429664
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-10",
+    "slug": "khareef-coffee-10",
+    "name": "Khareef Coffee 10",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "Way 2620",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.623501,
+      "lng": 58.537473
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-11",
+    "slug": "khareef-coffee-11",
+    "name": "Khareef Coffee 11",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Qaboos",
+      "address": "Street 1",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.54616,
+      "lng": 58.394252
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-12",
+    "slug": "khareef-coffee-12",
+    "name": "Khareef Coffee 12",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Mutrah",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.614676,
+      "lng": 58.589636
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-13",
+    "slug": "khareef-coffee-13",
+    "name": "Khareef Coffee 13",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ghala",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.565157,
+      "lng": 58.650611
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-14",
+    "slug": "khareef-coffee-14",
+    "name": "Khareef Coffee 14",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Al Sultan Qaboos",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.536172,
+      "lng": 58.466738
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-15",
+    "slug": "khareef-coffee-15",
+    "name": "Khareef Coffee 15",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ghala",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.633772,
+      "lng": 58.536538
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-2",
+    "slug": "khareef-coffee-2",
+    "name": "Khareef Coffee 2",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wattayah",
+      "address": "18th November St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.538003,
+      "lng": 58.546937
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-3",
+    "slug": "khareef-coffee-3",
+    "name": "Khareef Coffee 3",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Qantab",
+      "address": "Al Bahri Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.664509,
+      "lng": 58.385636
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-4",
+    "slug": "khareef-coffee-4",
+    "name": "Khareef Coffee 4",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Al Sultan Qaboos",
+      "address": "Al Kharjiyah St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.586529,
+      "lng": 58.661311
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-5",
+    "slug": "khareef-coffee-5",
+    "name": "Khareef Coffee 5",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Bausher",
+      "address": "18th November St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.588691,
+      "lng": 58.546775
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-6",
+    "slug": "khareef-coffee-6",
+    "name": "Khareef Coffee 6",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "North Ghubrah",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.623762,
+      "lng": 58.460539
     },
     "hours": [
       {
         "days": "Sat-Thu",
-        "open": "12:00",
-        "close": "01:00"
+        "open": "09:00",
+        "close": "21:00"
       },
       {
         "days": "Fri",
-        "open": "13:00",
-        "close": "01:00"
+        "open": "16:00",
+        "close": "22:00"
       }
     ],
-    "url": "https://kargeencaffe.com/"
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-7",
+    "slug": "khareef-coffee-7",
+    "name": "Khareef Coffee 7",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Seeb",
+      "address": "Street 1",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.594011,
+      "lng": 58.657286
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-8",
+    "slug": "khareef-coffee-8",
+    "name": "Khareef Coffee 8",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Qurum",
+      "address": "Al Seeb St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.540257,
+      "lng": 58.428209
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "khareef-coffee-9",
+    "slug": "khareef-coffee-9",
+    "name": "Khareef Coffee 9",
+    "categories": [
+      "Cafes"
+    ],
+    "tagline": "Specialty coffee and light bites.",
+    "tags": [
+      "Coffee",
+      "Pastries",
+      "Work-Friendly"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Mutrah",
+      "address": "Service Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.653098,
+      "lng": 58.478249
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "knowledge-hub-1",
+    "slug": "knowledge-hub-1",
+    "name": "Knowledge Hub 1",
+    "categories": [
+      "Education"
+    ],
+    "tagline": "Training center offering short professional courses.",
+    "tags": [
+      "Workshops",
+      "Training",
+      "Certification"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Azaiba",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.560719,
+      "lng": 58.499468
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "knowledge-hub-2",
+    "slug": "knowledge-hub-2",
+    "name": "Knowledge Hub 2",
+    "categories": [
+      "Education"
+    ],
+    "tagline": "Training center offering short professional courses.",
+    "tags": [
+      "Workshops",
+      "Training",
+      "Certification"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Seeb",
+      "address": "Al Araimi Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.631385,
+      "lng": 58.628962
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "knowledge-hub-3",
+    "slug": "knowledge-hub-3",
+    "name": "Knowledge Hub 3",
+    "categories": [
+      "Education"
+    ],
+    "tagline": "Training center offering short professional courses.",
+    "tags": [
+      "Workshops",
+      "Training",
+      "Certification"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Hail",
+      "address": "Sultan Qaboos St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.612865,
+      "lng": 58.57216
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "knowledge-hub-4",
+    "slug": "knowledge-hub-4",
+    "name": "Knowledge Hub 4",
+    "categories": [
+      "Education"
+    ],
+    "tagline": "Training center offering short professional courses.",
+    "tags": [
+      "Workshops",
+      "Training",
+      "Certification"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ghala",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.651359,
+      "lng": 58.418153
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "knowledge-hub-5",
+    "slug": "knowledge-hub-5",
+    "name": "Knowledge Hub 5",
+    "categories": [
+      "Education"
+    ],
+    "tagline": "Training center offering short professional courses.",
+    "tags": [
+      "Workshops",
+      "Training",
+      "Certification"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Seeb",
+      "address": "Al Araimi Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.593658,
+      "lng": 58.468
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
   },
   {
     "id": "knowledge-gate-school",
@@ -3745,6 +5030,222 @@
       "map_embed": ""
     },
     "faqs": []
+  },
+  {
+    "id": "lotus-spa-1",
+    "slug": "lotus-spa-1",
+    "name": "Lotus Spa 1",
+    "categories": [
+      "Health & Beauty"
+    ],
+    "tagline": "Day spa with massages and skincare treatments.",
+    "tags": [
+      "Spa",
+      "Wellness",
+      "Relaxation"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.647581,
+      "lng": 58.44874
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "lotus-spa-2",
+    "slug": "lotus-spa-2",
+    "name": "Lotus Spa 2",
+    "categories": [
+      "Health & Beauty"
+    ],
+    "tagline": "Day spa with massages and skincare treatments.",
+    "tags": [
+      "Spa",
+      "Wellness",
+      "Relaxation"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Qantab",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.568444,
+      "lng": 58.384795
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "lotus-spa-3",
+    "slug": "lotus-spa-3",
+    "name": "Lotus Spa 3",
+    "categories": [
+      "Health & Beauty"
+    ],
+    "tagline": "Day spa with massages and skincare treatments.",
+    "tags": [
+      "Spa",
+      "Wellness",
+      "Relaxation"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Bausher",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.574759,
+      "lng": 58.532849
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "lotus-spa-4",
+    "slug": "lotus-spa-4",
+    "name": "Lotus Spa 4",
+    "categories": [
+      "Health & Beauty"
+    ],
+    "tagline": "Day spa with massages and skincare treatments.",
+    "tags": [
+      "Spa",
+      "Wellness",
+      "Relaxation"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Mutrah",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.627153,
+      "lng": 58.586054
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "lotus-spa-5",
+    "slug": "lotus-spa-5",
+    "name": "Lotus Spa 5",
+    "categories": [
+      "Health & Beauty"
+    ],
+    "tagline": "Day spa with massages and skincare treatments.",
+    "tags": [
+      "Spa",
+      "Wellness",
+      "Relaxation"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Azaiba",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.605966,
+      "lng": 58.493048
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "lotus-spa-6",
+    "slug": "lotus-spa-6",
+    "name": "Lotus Spa 6",
+    "categories": [
+      "Health & Beauty"
+    ],
+    "tagline": "Day spa with massages and skincare treatments.",
+    "tags": [
+      "Spa",
+      "Wellness",
+      "Relaxation"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Azaiba",
+      "address": "Qurum Park Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.649942,
+      "lng": 58.60499
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "lotus-spa-7",
+    "slug": "lotus-spa-7",
+    "name": "Lotus Spa 7",
+    "categories": [
+      "Health & Beauty"
+    ],
+    "tagline": "Day spa with massages and skincare treatments.",
+    "tags": [
+      "Spa",
+      "Wellness",
+      "Relaxation"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Hamriya",
+      "address": "Sultan Qaboos St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.571806,
+      "lng": 58.484796
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
   },
   {
     "id": "lotus-spa",
@@ -4711,6 +6212,336 @@
     "faqs": []
   },
   {
+    "id": "muscat-stay-1",
+    "slug": "muscat-stay-1",
+    "name": "Muscat Stay 1",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ruwi",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.55511,
+      "lng": 58.655836
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "muscat-stay-10",
+    "slug": "muscat-stay-10",
+    "name": "Muscat Stay 10",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Khuwair",
+      "address": "Service Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.539796,
+      "lng": 58.572556
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "muscat-stay-2",
+    "slug": "muscat-stay-2",
+    "name": "Muscat Stay 2",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Azaiba",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.552288,
+      "lng": 58.584409
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "muscat-stay-3",
+    "slug": "muscat-stay-3",
+    "name": "Muscat Stay 3",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Mouj",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.55794,
+      "lng": 58.653905
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "muscat-stay-4",
+    "slug": "muscat-stay-4",
+    "name": "Muscat Stay 4",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ghubrah",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.533313,
+      "lng": 58.421802
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "muscat-stay-5",
+    "slug": "muscat-stay-5",
+    "name": "Muscat Stay 5",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Shatti Al Qurum",
+      "address": "Al Kharjiyah St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.57916,
+      "lng": 58.52301
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "muscat-stay-6",
+    "slug": "muscat-stay-6",
+    "name": "Muscat Stay 6",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wadi Kabir",
+      "address": "Al Araimi Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.546148,
+      "lng": 58.670528
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "muscat-stay-7",
+    "slug": "muscat-stay-7",
+    "name": "Muscat Stay 7",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wattayah",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.545176,
+      "lng": 58.49906
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "muscat-stay-8",
+    "slug": "muscat-stay-8",
+    "name": "Muscat Stay 8",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "North Ghubrah",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.583927,
+      "lng": 58.544508
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "muscat-stay-9",
+    "slug": "muscat-stay-9",
+    "name": "Muscat Stay 9",
+    "categories": [
+      "Hotels"
+    ],
+    "tagline": "Modern hotel with pool and fitness center.",
+    "tags": [
+      "Business",
+      "Pool",
+      "Breakfast"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Mouj",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.602789,
+      "lng": 58.618083
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
     "id": "muscat-international-school",
     "slug": "muscat-international-school",
     "name": "Muscat International School",
@@ -5512,17 +7343,17 @@
     "logo": "assets/images/default.webp",
     "location": {
       "neighborhood": "Bausher",
-      "address": "Sultan Qaboos St",
+      "address": "Al Seeb St",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.577,
-      "lng": 58.42
+      "lat": 23.64332,
+      "lng": 58.36208
     },
     "hours": [
       {
         "days": "Daily",
-        "open": "10:00",
-        "close": "22:00"
+        "open": "08:00",
+        "close": "23:00"
       }
     ],
     "url": "https://www.omanavenuesmall.com/"
@@ -5956,6 +7787,315 @@
       }
     ],
     "url": "https://example.com/omren-science-gallery"
+  },
+  {
+    "id": "palm-grill-1",
+    "slug": "palm-grill-1",
+    "name": "Palm Grill 1",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Shatti Al Qurum",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.605493,
+      "lng": 58.591473
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "palm-grill-10",
+    "slug": "palm-grill-10",
+    "name": "Palm Grill 10",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "Way 2620",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.627523,
+      "lng": 58.593762
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "palm-grill-2",
+    "slug": "palm-grill-2",
+    "name": "Palm Grill 2",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wattayah",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.639847,
+      "lng": 58.618399
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "palm-grill-3",
+    "slug": "palm-grill-3",
+    "name": "Palm Grill 3",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Qaboos",
+      "address": "Way 3935",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.579602,
+      "lng": 58.491553
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "palm-grill-4",
+    "slug": "palm-grill-4",
+    "name": "Palm Grill 4",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Mouj",
+      "address": "Way 3935",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.586367,
+      "lng": 58.468577
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "palm-grill-5",
+    "slug": "palm-grill-5",
+    "name": "Palm Grill 5",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Qaboos",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.556629,
+      "lng": 58.503556
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "palm-grill-6",
+    "slug": "palm-grill-6",
+    "name": "Palm Grill 6",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ruwi",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.564973,
+      "lng": 58.655445
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "palm-grill-7",
+    "slug": "palm-grill-7",
+    "name": "Palm Grill 7",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wadi Kabir",
+      "address": "Way 3935",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.6213,
+      "lng": 58.532988
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "palm-grill-8",
+    "slug": "palm-grill-8",
+    "name": "Palm Grill 8",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Al Sultan Qaboos",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.586898,
+      "lng": 58.514035
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "palm-grill-9",
+    "slug": "palm-grill-9",
+    "name": "Palm Grill 9",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Seeb",
+      "address": "18th November St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.583056,
+      "lng": 58.675299
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
   },
   {
     "id": "palm-grove-hotel",
@@ -6637,12 +8777,12 @@
     ],
     "logo": "assets/images/default.webp",
     "location": {
-      "neighborhood": "Qurum",
-      "address": "Qurum Park",
+      "neighborhood": "Madinat Al Sultan Qaboos",
+      "address": "Way 2620",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.609,
-      "lng": 58.466
+      "lat": 23.610829,
+      "lng": 58.585463
     },
     "hours": [
       {
@@ -6855,18 +8995,18 @@
     ],
     "logo": "assets/images/default.webp",
     "location": {
-      "neighborhood": "Shatti Al Qurum",
-      "address": "Al Kharjiyah St",
+      "neighborhood": "Ruwi",
+      "address": "Al Mouj Blvd",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.613,
-      "lng": 58.449
+      "lat": 23.568902,
+      "lng": 58.4289
     },
     "hours": [
       {
-        "days": "Box Office: Sun-Thu",
-        "open": "10:00",
-        "close": "19:00"
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
       }
     ],
     "url": "https://rohmuscat.org.om/"
@@ -7421,6 +9561,217 @@
     "faqs": []
   },
   {
+    "id": "seeb-center-1",
+    "slug": "seeb-center-1",
+    "name": "Seeb Center 1",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Retail complex with fashion and lifestyle stores.",
+    "tags": [
+      "Retail",
+      "Food Court",
+      "Parking"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Mutrah",
+      "address": "Sultan Qaboos St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.564278,
+      "lng": 58.512044
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "seeb-center-2",
+    "slug": "seeb-center-2",
+    "name": "Seeb Center 2",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Retail complex with fashion and lifestyle stores.",
+    "tags": [
+      "Retail",
+      "Food Court",
+      "Parking"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Al Sultan Qaboos",
+      "address": "Al Seeb St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.654059,
+      "lng": 58.544215
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "seeb-center-3",
+    "slug": "seeb-center-3",
+    "name": "Seeb Center 3",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Retail complex with fashion and lifestyle stores.",
+    "tags": [
+      "Retail",
+      "Food Court",
+      "Parking"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Seeb",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.564158,
+      "lng": 58.569939
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "seeb-center-4",
+    "slug": "seeb-center-4",
+    "name": "Seeb Center 4",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Retail complex with fashion and lifestyle stores.",
+    "tags": [
+      "Retail",
+      "Food Court",
+      "Parking"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Qaboos",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.554624,
+      "lng": 58.666549
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "seeb-center-5",
+    "slug": "seeb-center-5",
+    "name": "Seeb Center 5",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Retail complex with fashion and lifestyle stores.",
+    "tags": [
+      "Retail",
+      "Food Court",
+      "Parking"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "18th November St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.658446,
+      "lng": 58.398835
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "seeb-center-6",
+    "slug": "seeb-center-6",
+    "name": "Seeb Center 6",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Retail complex with fashion and lifestyle stores.",
+    "tags": [
+      "Retail",
+      "Food Court",
+      "Parking"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "Commercial Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.663006,
+      "lng": 58.645256
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "seeb-center-7",
+    "slug": "seeb-center-7",
+    "name": "Seeb Center 7",
+    "categories": [
+      "Shopping"
+    ],
+    "tagline": "Retail complex with fashion and lifestyle stores.",
+    "tags": [
+      "Retail",
+      "Food Court",
+      "Parking"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Qantab",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.655609,
+      "lng": 58.59797
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
+  },
+  {
     "id": "serenity-wellness-center",
     "slug": "serenity-wellness-center",
     "name": "Serenity Wellness Center",
@@ -7554,21 +9905,27 @@
     ],
     "tagline": "Clifftop resort with private beaches and family facilities.",
     "tags": [
-      "⭐️5",
+      "5-Star",
       "Resort",
       "Beachfront",
       "Family Friendly"
     ],
     "logo": "assets/images/default.webp",
     "location": {
-      "neighborhood": "Barr Al Jissah",
-      "address": "PO Box 644, Muscat 100",
+      "neighborhood": "Shatti Al Qurum",
+      "address": "Al Seeb St",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.557,
-      "lng": 58.642
+      "lat": 23.552772,
+      "lng": 58.473687
     },
-    "hours": null,
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
     "url": "https://www.shangri-la.com/muscat/barraljissahresort/"
   },
   {
@@ -7731,6 +10088,617 @@
       "map_embed": ""
     },
     "faqs": []
+  },
+  {
+    "id": "souq-bite-1",
+    "slug": "souq-bite-1",
+    "name": "Souq Bite 1",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Shatti Al Qurum",
+      "address": "Al Kharjiyah St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.60478,
+      "lng": 58.438339
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-10",
+    "slug": "souq-bite-10",
+    "name": "Souq Bite 10",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Qaboos",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.545617,
+      "lng": 58.499125
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-11",
+    "slug": "souq-bite-11",
+    "name": "Souq Bite 11",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Qurum",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.601075,
+      "lng": 58.394051
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-12",
+    "slug": "souq-bite-12",
+    "name": "Souq Bite 12",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ghubrah",
+      "address": "Commercial Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.551397,
+      "lng": 58.604003
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-13",
+    "slug": "souq-bite-13",
+    "name": "Souq Bite 13",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Qantab",
+      "address": "Sultan Qaboos St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.598405,
+      "lng": 58.395798
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-14",
+    "slug": "souq-bite-14",
+    "name": "Souq Bite 14",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ghubrah",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.563722,
+      "lng": 58.541554
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "souq-bite-15",
+    "slug": "souq-bite-15",
+    "name": "Souq Bite 15",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Al Sultan Qaboos",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.666918,
+      "lng": 58.530466
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-16",
+    "slug": "souq-bite-16",
+    "name": "Souq Bite 16",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Mutrah",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.567108,
+      "lng": 58.639179
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-17",
+    "slug": "souq-bite-17",
+    "name": "Souq Bite 17",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Khuwair",
+      "address": "Mutrah Corniche",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.585859,
+      "lng": 58.57494
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-18",
+    "slug": "souq-bite-18",
+    "name": "Souq Bite 18",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "Commercial Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.546941,
+      "lng": 58.431903
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-19",
+    "slug": "souq-bite-19",
+    "name": "Souq Bite 19",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Qurum",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.531007,
+      "lng": 58.586509
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "souq-bite-2",
+    "slug": "souq-bite-2",
+    "name": "Souq Bite 2",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Seeb",
+      "address": "Al Maha St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.625846,
+      "lng": 58.629713
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "08:00",
+        "close": "23:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-20",
+    "slug": "souq-bite-20",
+    "name": "Souq Bite 20",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Bausher",
+      "address": "Al Kharjiyah St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.650349,
+      "lng": 58.382674
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-3",
+    "slug": "souq-bite-3",
+    "name": "Souq Bite 3",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Mouj",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.642706,
+      "lng": 58.488373
+    },
+    "hours": null,
+    "url": ""
+  },
+  {
+    "id": "souq-bite-4",
+    "slug": "souq-bite-4",
+    "name": "Souq Bite 4",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Khuwair",
+      "address": "Al Araimi Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.621761,
+      "lng": 58.486602
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-5",
+    "slug": "souq-bite-5",
+    "name": "Souq Bite 5",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "Street 1",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.549548,
+      "lng": 58.598396
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-6",
+    "slug": "souq-bite-6",
+    "name": "Souq Bite 6",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Shatti Al Qurum",
+      "address": "Al Mouj Blvd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.58068,
+      "lng": 58.679144
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-7",
+    "slug": "souq-bite-7",
+    "name": "Souq Bite 7",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Qantab",
+      "address": "Dolphin St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.63581,
+      "lng": 58.635553
+    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-8",
+    "slug": "souq-bite-8",
+    "name": "Souq Bite 8",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ghala",
+      "address": "Al Bahri Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.613497,
+      "lng": 58.483126
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "souq-bite-9",
+    "slug": "souq-bite-9",
+    "name": "Souq Bite 9",
+    "categories": [
+      "Restaurants"
+    ],
+    "tagline": "Casual dining with local and international dishes.",
+    "tags": [
+      "Family Friendly",
+      "Casual",
+      "Dine-In"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Old Muscat",
+      "address": "Commercial Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.665951,
+      "lng": 58.63545
+    },
+    "hours": null,
+    "url": ""
   },
   {
     "id": "spice-route-restaurant",
@@ -7897,18 +10865,23 @@
     ],
     "logo": "assets/images/default.webp",
     "location": {
-      "neighborhood": "Bausher",
-      "address": "Sultan Qaboos St",
+      "neighborhood": "North Ghubrah",
+      "address": "Way 3935",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.585,
-      "lng": 58.389
+      "lat": 23.58319,
+      "lng": 58.474873
     },
     "hours": [
       {
-        "days": "Visitor Hours: Sat-Thu",
-        "open": "08:00",
-        "close": "11:00"
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
       }
     ],
     "url": "https://www.sultanqaboosgrandmosque.com/"
@@ -8105,7 +11078,7 @@
       "Hotels"
     ],
     "tags": [
-      "⭐️5",
+      "5-Star",
       "Luxury",
       "Spa"
     ],
@@ -8179,43 +11152,20 @@
       "amenities": [],
       "seating": []
     },
-    "hours": {
-      "Mon": [
-        "09:00",
-        "17:00"
-      ],
-      "Tue": [
-        "09:00",
-        "17:00"
-      ],
-      "Wed": [
-        "09:00",
-        "17:00"
-      ],
-      "Thu": [
-        "09:00",
-        "17:00"
-      ],
-      "Fri": [
-        "10:00",
-        "22:00"
-      ],
-      "Sat": [
-        "10:00",
-        "22:00"
-      ],
-      "Sun": [
-        "10:00",
-        "22:00"
-      ]
-    },
+    "hours": [
+      {
+        "days": "Daily",
+        "open": "10:00",
+        "close": "22:00"
+      }
+    ],
     "location": {
-      "neighborhood": "North Ghubrah",
-      "address": "18th November St",
+      "neighborhood": "Madinat Qaboos",
+      "address": "Al Kharjiyah St",
       "city": "Muscat",
       "country": "Oman",
-      "lat": 23.6,
-      "lng": 58.409
+      "lat": 23.53445,
+      "lng": 58.389982
     },
     "faqs": []
   },
@@ -8684,6 +11634,171 @@
       "map_embed": ""
     },
     "faqs": []
+  },
+  {
+    "id": "wadi-green-park-1",
+    "slug": "wadi-green-park-1",
+    "name": "Wadi Green Park 1",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Family park with shaded walkways and playgrounds.",
+    "tags": [
+      "Family Friendly",
+      "Playground",
+      "Picnic"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Qaboos",
+      "address": "Al Bahri Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.545134,
+      "lng": 58.368217
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "wadi-green-park-2",
+    "slug": "wadi-green-park-2",
+    "name": "Wadi Green Park 2",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Family park with shaded walkways and playgrounds.",
+    "tags": [
+      "Family Friendly",
+      "Playground",
+      "Picnic"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Wattayah",
+      "address": "Qurum Park Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.661806,
+      "lng": 58.423466
+    },
+    "hours": [
+      {
+        "days": "Visitor Hours: Sat-Thu",
+        "open": "08:00",
+        "close": "11:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "wadi-green-park-3",
+    "slug": "wadi-green-park-3",
+    "name": "Wadi Green Park 3",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Family park with shaded walkways and playgrounds.",
+    "tags": [
+      "Family Friendly",
+      "Playground",
+      "Picnic"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Ghala",
+      "address": "Al Sarooj St",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.627607,
+      "lng": 58.456506
+    },
+    "hours": [
+      {
+        "days": "Box Office: Sun-Thu",
+        "open": "10:00",
+        "close": "19:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "wadi-green-park-4",
+    "slug": "wadi-green-park-4",
+    "name": "Wadi Green Park 4",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Family park with shaded walkways and playgrounds.",
+    "tags": [
+      "Family Friendly",
+      "Playground",
+      "Picnic"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Al Hail",
+      "address": "Way 3935",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.578609,
+      "lng": 58.497081
+    },
+    "hours": [
+      {
+        "days": "Sat-Thu",
+        "open": "09:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Fri",
+        "open": "16:00",
+        "close": "22:00"
+      }
+    ],
+    "url": ""
+  },
+  {
+    "id": "wadi-green-park-5",
+    "slug": "wadi-green-park-5",
+    "name": "Wadi Green Park 5",
+    "categories": [
+      "Attractions"
+    ],
+    "tagline": "Family park with shaded walkways and playgrounds.",
+    "tags": [
+      "Family Friendly",
+      "Playground",
+      "Picnic"
+    ],
+    "logo": "assets/images/default.webp",
+    "location": {
+      "neighborhood": "Madinat Al Sultan Qaboos",
+      "address": "Commercial Rd",
+      "city": "Muscat",
+      "country": "Oman",
+      "lat": 23.531771,
+      "lng": 58.494419
+    },
+    "hours": [
+      {
+        "days": "Sun-Thu",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "url": ""
   },
   {
     "id": "wellness-medical-center",
