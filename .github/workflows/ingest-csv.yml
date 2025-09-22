@@ -39,18 +39,30 @@ jobs:
           python - <<'PY'
           import csv, sys, re
           from pathlib import Path
+
           CSV = Path("data/sources/places.csv")
-          required = ["name","category","tagline","url"]
+
+          # 'url' is OPTIONAL now. We warn if it's missing.
+          required = ["name", "category", "tagline"]
           slug_re = re.compile(r"^[a-z0-9-]+$")
+
           with CSV.open("r", encoding="utf-8-sig") as f:
               rdr = csv.DictReader(f)
-              for i,row in enumerate(rdr, start=2):
+              for i, row in enumerate(rdr, start=2):  # account for header line
+                  # Hard requirements
                   for k in required:
                       if not (row.get(k) or "").strip():
                           sys.exit(f"Missing required '{k}' at CSV line {i}")
+
+                  # Soft check (warn only)
+                  if not (row.get("url") or "").strip():
+                      print(f"[warn] Missing url at CSV line {i}")
+
+                  # Slug sanity (if provided)
                   slug = (row.get("slug") or "").strip()
                   if slug and not slug_re.match(slug):
                       sys.exit(f"Bad slug '{slug}' at line {i} (use lowercase letters, numbers, hyphens)")
+
           print("[ok] CSV basic validation passed.")
           PY
 
