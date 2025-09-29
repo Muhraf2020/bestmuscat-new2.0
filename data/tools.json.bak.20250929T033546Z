@@ -1903,31 +1903,7 @@
         "close": "23:00"
       }
     ],
-    "url": "https://example.com/charm-thai",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": "https://example.com/charm-thai"
   },
   {
     "id": "city-walk-mall",
@@ -2879,31 +2855,7 @@
         "close": "23:00"
       }
     ],
-    "url": "https://example.com/dukanah",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": "https://example.com/dukanah"
   },
   {
     "id": "family-health-clinic",
@@ -4347,31 +4299,7 @@
         "close": "17:00"
       }
     ],
-    "url": "https://kargeencaffe.com/",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": "https://kargeencaffe.com/"
   },
   {
     "id": "khareef-coffee-1",
@@ -5696,31 +5624,7 @@
         "close": "23:00"
       }
     ],
-    "url": "https://example.com/mani-s-gourmet",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": "https://example.com/mani-s-gourmet"
   },
   {
     "id": "markaz-al-bahja",
@@ -7913,31 +7817,7 @@
         "close": "11:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grill-10",
@@ -7968,31 +7848,7 @@
         "close": "23:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grill-2",
@@ -8023,31 +7879,7 @@
         "close": "22:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grill-3",
@@ -8078,31 +7910,7 @@
         "close": "23:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grill-4",
@@ -8133,31 +7941,7 @@
         "close": "23:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grill-5",
@@ -8188,31 +7972,7 @@
         "close": "17:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grill-6",
@@ -8243,31 +8003,7 @@
         "close": "17:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grill-7",
@@ -8292,31 +8028,7 @@
       "lng": 58.532988
     },
     "hours": null,
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grill-8",
@@ -8347,31 +8059,7 @@
         "close": "23:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grill-9",
@@ -8407,31 +8095,7 @@
         "close": "22:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "palm-grove-hotel",
@@ -10298,31 +9962,7 @@
         "close": "23:00"
       }
     ],
-    "url": "https://example.com/shuwa-express",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": "https://example.com/shuwa-express"
   },
   {
     "id": "smile-dental-clinic",
@@ -10478,31 +10118,7 @@
         "close": "17:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-10",
@@ -10533,31 +10149,7 @@
         "close": "17:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-11",
@@ -10588,31 +10180,7 @@
         "close": "19:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-12",
@@ -10643,31 +10211,7 @@
         "close": "11:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-13",
@@ -10703,31 +10247,7 @@
         "close": "22:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-14",
@@ -10752,31 +10272,7 @@
       "lng": 58.541554
     },
     "hours": null,
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-15",
@@ -10807,31 +10303,7 @@
         "close": "22:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-16",
@@ -10862,31 +10334,7 @@
         "close": "17:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-17",
@@ -10922,31 +10370,7 @@
         "close": "22:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-18",
@@ -10982,31 +10406,7 @@
         "close": "22:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-19",
@@ -11031,31 +10431,7 @@
       "lng": 58.586509
     },
     "hours": null,
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-2",
@@ -11086,31 +10462,7 @@
         "close": "23:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-20",
@@ -11141,31 +10493,7 @@
         "close": "22:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-3",
@@ -11190,31 +10518,7 @@
       "lng": 58.488373
     },
     "hours": null,
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-4",
@@ -11245,31 +10549,7 @@
         "close": "19:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-5",
@@ -11300,31 +10580,7 @@
         "close": "11:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-6",
@@ -11355,31 +10611,7 @@
         "close": "22:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-7",
@@ -11410,31 +10642,7 @@
         "close": "22:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-8",
@@ -11465,31 +10673,7 @@
         "close": "11:00"
       }
     ],
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "souq-bite-9",
@@ -11514,31 +10698,7 @@
       "lng": 58.63545
     },
     "hours": null,
-    "url": "",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": ""
   },
   {
     "id": "spice-route-restaurant",
@@ -12199,31 +11359,7 @@
         "close": "23:00"
       }
     ],
-    "url": "https://example.com/turkuaz",
-    "menu": {
-      "status": "placeholder",
-      "source": {
-        "type": "unknown",
-        "url": "",
-        "captured_at": null
-      },
-      "currency": "AED",
-      "last_updated": "2025-09-29T03:35:46Z",
-      "sections": [
-        {
-          "title": "Featured",
-          "items": [
-            {
-              "name": "TBA",
-              "price": null,
-              "desc": "",
-              "tags": []
-            }
-          ]
-        }
-      ],
-      "notes": "Auto-added placeholder. Replace with real menu data."
-    }
+    "url": "https://example.com/turkuaz"
   },
   {
     "id": "urban-diner",
